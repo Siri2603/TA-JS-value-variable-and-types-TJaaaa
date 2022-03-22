@@ -2,6 +2,23 @@
 
 let firstName = "Arya";
 let lastName = "Stark";
+alert("Arya");
+alet("Stark");
+let firstName = "John";
+let lastName = "Snow";
+/*
+multi
+line
+*/
+alert("John");
+alert("Snow");
+const name = "John Snow";
+alert("John Snow");
+
+let name = "Siri";
+let newUser = "name"
+let isAdmin = "true"
+alert()
 
 // Do the following:
 
