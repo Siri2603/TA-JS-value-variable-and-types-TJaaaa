@@ -1,5 +1,5 @@
 // if..else
-
+// if..else
 /*
 1. Write a program that asks the user for a number and check the following conditions:
 
