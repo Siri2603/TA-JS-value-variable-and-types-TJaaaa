@@ -14,7 +14,9 @@ Use `prompt` to take two numbers from user and store it in variable `numA` and `
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
+for (let j = 0; j <= 10; j = 1++){
+     console.log(j);
+}
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 
