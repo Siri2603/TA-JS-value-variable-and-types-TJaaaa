@@ -10,6 +10,18 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
+let user = prompt("Enter your age");
+let age = 55;
+
+if(age > 12){
+  alert("You can participate in the marathon");
+} else if (age < 12){
+  alert("You are too young to participate in the marathon");
+} else if (age < 4){
+  alert("Hey Kiddo! Can You Walk?");
+} else (age > 55);{
+  alert("You are too old to participate in the marthon");
+}
 
 // Loops
 /*
@@ -22,11 +34,21 @@ n = 7 => output: heeeeeeello
 */
 // [Your code goes here]
 
+let n = +prompt("Enter the number");
+let positive = "";
+for(let i = 0; i < n; i++){
+ positive += "e";
+}
+alert(`h${positive}llo`);
+
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
+
+let n = Number(prompt("Enter the number"));
+
 
 /* Switch Statement
 
@@ -47,7 +69,7 @@ Take a number value from user and alert the message if it matches the conditions
 */
 // [Your code goes here]
 
-/*
+/* 
 🎖Using switch statement do the following
 
 Take the value of `marks` (0-100) from user using `prompt` and `alert` the message (Your Grade is AA) as giver below.
